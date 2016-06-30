@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/style.css"/>
+    <link rel="stylesheet" href="css/media.css"/>
+    <link href='https://fonts.googleapis.com/css?family=Noto+Sans:400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <title>My settings</title>
+</head>
+<body>
+
+    <!-- header -->
+    <header class="l-header-main">
+
+        <div class="header-wrap wrap">
+
+            <a href="#" class="back-page img-header">
+                <img src="img/arrow-left.png" alt="" class="arrow-left img-header"/>
+            </a>
+
+            <a href="#" class="header-logo img-header">
+                <img src="img/logo.png" alt="" class="main-logo img-header"/>
+            </a>
+
+            <a href="#" class="header-search">
+                <img src="img/search.png" alt="" class="search-logo img-header"/>
+            </a>
+
+            <a href="#" class="header-nav">
+                <img src="img/nav.png" alt="" class="h-nav img-header"/>
+            </a>
+
+
+        </div>
+
+    </header><!-- END header -->
+
+    <!-- main-wrap -->
+    <div class="main-wrap wrap">
+
+        <!-- section photo settings -->
+        <section class="l-photo is-section-bottom-line">
+            <h1 class="l-photo-title l-title-color">Мои настройки</h1>
+            <div class="l-photo-profile">
+                <img src="img/profile-photo.png" alt="" class="my-photo"/>
+            </div>
+            <a href="#" class="add-photo l-title-color is-hover">Добавить фото</a>
+        </section><!-- END section photo settings -->
+
+        <!-- section profile settings -->
+        <section class="l-profile-info is-section-bottom-line">
+            <h2 class="l-title-color">Настройки профиля</h2>
+            <h3 class="l-h3-color">E-mail</h3>
+            <span class="l-client-info l-h3-color">zakhar.timersanov345@xxmail.com</span>
+            <a href="" class="change-password l-button-settings l-client-info l-button-style">Сменить пароль</a>
+        </section><!-- END section profile settings -->
+
+        <!-- section contact-info settings -->
+        <section class="l-contact-info is-section-bottom-line">
+            <h2 class="l-title-color">Контактная информация</h2>
+
+
+            <form class="contact-form" action="#" method="post" name="contact_form">
+                <label for="name"><h3 class="l-h3-color">Имя пользователя</h3></label>
+                <input type="text"  placeholder="Имя Фамилия" class="name-form l-button-settings input-style l-client-info" id="name" required />
+            </form>
+
+            <h3 class="l-h3-color h3-top-margin">Телефон</h3>
+            <div class="block-info">
+                <span class="l-client-info l-h3-color">+78 901 234 56 78</span>
+                <a class="create-button-info"></a>
+            </div>
+
+        </section><!-- END section contact-info settings -->
+
+        <!-- section email-delivery settings -->
+        <section class="l-email-delivery is-section-bottom-line-dotted">
+            <h2 class="l-title-color">Настройка email-рассылки</h2>
+            <h3 class="l-h3-color h3-top-margin">Город</h3>
+            <div class="block-info">
+                <span class="l-client-info l-h3-color">Алматы</span>
+                <a class="create-button-info"></a>
+            </div>
+            <h3 class="l-h3-color h3-top-margin">Тип недвижимости</h3>
+            <div class="block-info">
+                <span class="l-client-info l-h3-color">Все</span>
+                <a class="create-button-info"></a>
+            </div>
+        </section><!-- END section email-delivery settings -->
+
+        <!-- section other settings -->
+        <section class="l-email-delivery">
+
+            <div class="block-info-toggle is-section-bottom-line-dotted">
+                <span class="l-client-info l-h3-color">Перезаписать настройки рассылки</span><br>
+
+                <span class="toggle-bg">
+                    <input type="radio" name="toggle" value="off" class="radio-toggle">
+                    <input type="radio" name="toggle" value="on" class="radio-toggle">
+                    <span class="switch"></span>
+                </span>
+            </div>
+
+            <div class="block-info-toggle">
+                <span class="l-client-info l-h3-color">Подписаться на персональную рассылку</span>
+
+                <span class="toggle-bg">
+                    <input type="radio" name="toggle" value="off" class="radio-toggle">
+                    <input type="radio" name="toggle" value="on" class="radio-toggle">
+                    <span class="switch"></span>
+                </span>
+            </div>
+
+        </section><!-- END section other settings -->
+
+
+
+        <!-- section create password -->
+        <section class="l-create-password is-hidden">
+            <h2 class="l-title-color">Смена пароля</h2>
+
+            <form class="contact-form password-form is-section-bottom-line" action="#" method="post" name="password_form">
+                <label for="password"><h3 class="l-h3-color">Текущий пароль</h3></label>
+                <input type="password" class="name-form l-button-settings input-style l-client-info" id="password" required />
+
+                <label for="new-password"><h3 class="l-h3-color">Новый пароль</h3></label>
+                <input type="password" class="name-form l-button-settings input-style l-client-info" id="new-password" required />
+
+                <label for="new-password-2"><h3 class="l-h3-color">Подтверждение нового пароля</h3></label>
+                <input type="password" class="name-form l-button-settings input-style l-client-info" id="new-password-2" required />
+
+            </form>
+
+            <h2 class="l-title-color h2-center">Привязка аккаунтов</h2>
+
+            <!-- social-offices -->
+            <div class="social-offices is-section-bottom-line">
+
+                <ul class="group-social">
+                    <li><a href="#" class="social-icon"><i class="fa fa-linkedin fa-2x"></i></a></li>
+                    <li><a href="#" class="social-icon"><i class="fa fa-google-plus fa-2x"></i></a></li>
+                    <li><a href="#" class="social-icon"><i class="fa fa-facebook fa-2x"></i></a></li>
+
+                </ul>
+
+            </div><!-- social-offices -->
+
+            <a href="" class="save-change l-button-settings l-client-info l-button-style">Сохранить изменения</a>
+
+            <a href="" class="cancel-change l-button-settings l-client-info l-button-style">Отменить изменения</a>
+
+        </section><!-- END section create password -->
+
+    </div><!-- END wrap -->
+
+    <script src="js/main.js"></script>
+
+</body>
+</html>
